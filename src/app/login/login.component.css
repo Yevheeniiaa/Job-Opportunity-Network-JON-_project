@@ -1,0 +1,111 @@
+.section {
+  color: white;
+  background-color: #291e6c;
+  height: 100vh;
+  padding-top: 270px;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.form {
+  margin: auto;
+  padding: 20px;
+  background: #0000002e;
+  width: 45%;
+  border-radius: 17px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+.error {
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+
+.form__column {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+
+.form__column:nth-child(1) {
+  margin-top: 8px;
+}
+
+
+.form__column:focus {
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.form__column:nth-child(2) {
+  margin-top: 20px;
+}
+
+.form__btn-wrap {
+  display: flex;
+  margin: 30px auto auto;
+  width: 90%;
+}
+
+.form__btn-send {
+  margin: 20px auto auto;
+  display: block;
+  text-align: center;
+  width: 90%;
+  color: white;
+  background-color: #b33c52;
+  height: 50px;
+  padding: 12px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.form__btn-send:hover {
+  filter: drop-shadow(0px 1px 1px rgb(0, 0, 0,0.3));
+}
+
+@media (max-width: 1199px) {
+  .form {
+    width: 30%;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .form {
+    width: 40%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  .form {
+    width: 80%;
+  }
+}
+
+

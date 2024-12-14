@@ -1,0 +1,60 @@
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.employee-section {
+  padding-top: 240px;
+  background-color: #291e6c;
+  height: 100vh;
+}
+
+.employer-section {
+  padding-top: 240px;
+  background-color: #770c2e;
+  height: 100vh;
+}
+
+.error {
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+
+.card {
+  width: 350px;
+  margin: auto;
+  background: #0000002e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 6px rgba(0,0,0,.3);
+}
+
+.form__column {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.form__column:nth-child(n + 1) {
+  margin-top: 10px;
+}
+
+.send-btn {
+  margin: 20px auto auto;
+  display: block;
+  text-align: center;
+  width: 90%;
+  background-color: #b33c52;
+  height: 50px;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+

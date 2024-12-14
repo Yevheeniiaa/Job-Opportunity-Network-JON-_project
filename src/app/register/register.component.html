@@ -1,0 +1,17 @@
+<section [ngClass]="{
+    'employee-section': isEmployee ,
+    'employer-section': !isEmployee
+}
+">
+  <div class="container">
+    <div class="card">
+      <p class="error" *ngIf="error != null">Email or login already exist</p>
+      <form [formGroup]="form" (ngSubmit)="register()">
+        <input placeholder="Login" type="text" class="form__column" formControlName="login">
+        <input placeholder="Password" type="password" class="form__column" formControlName="password">
+        <input  placeholder="Email" type="email" class="form__column" formControlName="email">
+        <input value="Register" [disabled]="form.invalid" type="submit" class="send-btn">
+      </form>
+    </div>
+  </div>
+</section>
